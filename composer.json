@@ -1,0 +1,25 @@
+{
+	"name": "natxet/NatxetTwigExtensions",
+	"version": "0.1.1",
+	"type": "library",
+	"description": "Extensions for twig",
+	"keywords": ["twig"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Natxet",
+			"homepage": "https://github.com/natxet"
+		}
+	],
+	"repositories": {
+		"Github": {
+			"vcs": {
+				"url": "git://github.com/natxet/NatxetTwigExtensions.git"
+			}
+		}
+	},
+	"require": {
+		"twig/twig": ">=1.8,<2.0-dev"
+	}
+}
+
