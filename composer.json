@@ -1,8 +1,8 @@
 {
 	"name": "natxet/natxet-twig-extensions",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"type": "library",
-	"description": "Extensions for twig",
+	"description": "Extensions for twig: Path and PHP Functions",
 	"keywords": ["twig"],
 	"license": "MIT",
 	"authors": [
