@@ -1,5 +1,5 @@
 {
-	"name": "natxet/NatxetTwigExtensions",
+	"name": "natxet/natxet-twig-extensions",
 	"version": "0.1.1",
 	"type": "library",
 	"description": "Extensions for twig",
