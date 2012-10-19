@@ -22,7 +22,7 @@
 		"twig/twig": ">=1.8,<2.0-dev"
 	},
 	"autoload": {
-		"psr-0": { "NatxetTwigExtensions": "src/" }
+		"psr-0": { "natxet\\NatxetTwigExtensions": "src/" }
 	}
 }
 
