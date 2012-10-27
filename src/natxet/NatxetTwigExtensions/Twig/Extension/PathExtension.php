@@ -17,7 +17,8 @@ class PathExtension extends \Twig_Extension {
 	}
 
 	public function path($path_name,$param=array()) {
-		if(!isset($param['locale'])) {
+		if(isset($this->app['config']['localised_urls']) && $this->app['config']['localised_urls']
+			&& !isset($param['locale'])) {
 			$param['locale'] = $this->app['locale'];
 		}
 		return $this->app['url_generator']->generate($path_name, $param);
